@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Ledger&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <link rel="stylesheet" href="./style.css?ver=1.111">
+    <title>VIImiracula</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="./" class="header__logo"></a>
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a href="#projects" class="header__nav-link">Проекты</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#services" class="header__nav-link">Услуги</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#about" class="header__nav-link">о нас</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#contacts" class="header__nav-link">Контакты</a>
+                </li>
+            </ul>
+            
+            <a data-fancybox href="#hidden" class="header__burger-button"></a>
+ 
+            <div style="display: none; width: 500px;" id="hidden" class="fancybox-inner">
+                <p>Европа & Азия</p>
+                <a href="art@viimiracula.com" class="">art@viimiracula.com</a>
+                <a href="tel:+77711632310" class="">+7 771 163-23-10</a>
+               <div class="socials">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+    <main>
+        <section class="main-banner__section">
+            <div class="container">
+                <h1>Студия Семь чудес света</h1>
+            </div>
+        </section>
+
+        <section class="projects-top__section" id="about">
+            <div class="container">
+                <div class="text-wrapper">
+                    <p>
+                        Более 20 лет мы проектируем уникальные ландшафты и интерьеры в органическом стиле, вдохновляясь естественной красотой природы и создавай объекты с использованием экологичного архитектурного бетона.
+                    </p>
+                    <p>
+                        Наши проекты формируют комфорт и обеспечивают гармоничное сосуществование человека и окружающего пространства.
+                    </p>
+                </div>
+            </div>
+            <button class="btn-up btn-up_hide"></button>
+        </section>
+        <section class="projects-bottom__section" id="projects">
+            <div class="container">
+                <!-- <div class="projects__links">
+                    <button class="f-all">Наши проекты</button>
+                    <button class="f-public">общественные</button>
+                    <button class="f-street">уличные</button>
+                    <button class="f-interior">интерьерные</button>
+                </div> -->
+                <h2 class="h2-style">Наши проекты</h2>
+            </div>
+            <ul class="projects__list">
+                <li class="projects__item public">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/skolkovo_results_h_001_2.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/skolkovo_results_h_002_2.jpg" alt=""> 
+                        </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/skolkovo_results_h_005.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/skolkovo_results_h_008.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/skolkovo_results_h_007.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/skolkovo_results_h_006.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/skolkovo_results_h_009.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/skolkovo_results_h_010.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Ландшафтный проект в Сколково</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item interior">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/modern_interior_4-scaled.jpg" alt=""> 
+                         </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/modern_interior_1-scaled.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/modern_interior_6-scaled.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/modern_interior_15.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/modern_interior_18.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Скалы в интерьере квартиры</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item public">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/dreemwood_intro3.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/mriya12-1.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/mriya21.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/dreemwood1920_05.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/mriya92.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/mriya101.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/mriya111.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/dreemwood1920_04.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete_tree_441.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Парк Dreamwood</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item interior">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BA%D0%B02.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BA%D0%B05.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BA%D0%B08.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BA%D0%B09.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BA%D0%B012.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BA%D0%B011.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BA%D0%B013.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/%D0%B2%D0%BE%D0%B4%D0%BE%D0%BF%D0%B0%D0%B4-17.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Усадьба в античном стиле</h3>
+                        </div>
+                    </div>
+                </li> 
+                <li class="projects__item street">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete-artificial-pond-waterfall-02-viimiracula_ru.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete-artificial-pond-waterfall-04-viimiracula_ru.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete-artificial-pond-waterfall-08-viimiracula_ru.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete-artificial-pond-waterfall-09-viimiracula_ru.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete-artificial-pond-waterfall-10-viimiracula_ru.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete-artificial-pond-waterfall-12-viimiracula_ru.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete-artificial-pond-waterfall-13-viimiracula_ru.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete-artificial-pond-waterfall-watermark_process_03_viimiracularu.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Декоративный пруд у бани</h3>
+                        </div>
+                    </div>
+                </li> 
+                <li class="projects__item street">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/artificialpond-03-viimiracularu.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/zavidnoe_waterfall03.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/%D0%B7%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5-%D1%84%D0%BE%D1%82%D0%BE.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/zavidnoe_waterfall08.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/zavidnoe_waterfall09.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/zavidnoe_waterfall15.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/zavidnoe_waterfall10-2.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/zavidnoe_waterfall11-1.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Водопад в клубе Завидное</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item street">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/2009-05-21_.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/2009-05-21_4337.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/Scan100_-copy.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/%D1%81%D1%82%D0%B5%D0%BD%D0%B0.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/retaining-walls.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/Scan100003_2.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete_stone.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/2009-10-02_4876.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Подпорные стены в Горках</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item public">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/big_artificial_waterfall-in_interior_1.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/big_artificial_waterfall-in_interior_2.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/big_artificial_waterfall-in_interior_3.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/big_artificial_waterfall-in_interior_5.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/big_artificial_waterfall-in_interior_6.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/big_artificial_waterfall-in_interior_8.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/big_artificial_waterfall-in_interior_4.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Бассейн с большим водопадом</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item street">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/swiming_pool_decoration1.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/swiming_pool_decoration2.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/swiming_pool_decoration3.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/swiming_pool_decoration5.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/swiming_pool_decoration6.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/swiming_pool_decoration8.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/swiming_pool_decoration9.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/swiming_pool_decoration_11.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Отделка бассейна под камень</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item public">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/pool_decoration2.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/pool_decoration3.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/pool_decoration5.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/pool_decoration4.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/pool_decoration8.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/pool_decoration9.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/pool_decoration11.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/pool_decoration14.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Бассейн в стиле стим-панк</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item interior">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/artificial_rocks_1022.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/artificial_rocks_2.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/artificial_rocks_4.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/artificial_rocks_58.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/artificial_rocks_7.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/artificial_rocks_10.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/artificial_rocks_11.jpeg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Высокие скалы из бетона</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item interior">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/original_fasade_finish.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/original_fasade_finish_2.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/original_fasade_finish_3.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/original_fasade_finish_4.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/original_fasade_finish_5.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/original_fasade_finish_10.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/original_fasade_finish_11.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/original_fasade_finish_12.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Новый фасад для дома</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item interior">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/modern_fasade1.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/modern_fasade2.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/modern_fasade3.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/modern_fasade4.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/modern_fasade11.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/modern_fasad13.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/modern_fasade16.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/modern_fasade_process9.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Фасад в стиле модерн</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item public">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/castlevidnoe_intro2.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/fasade_decoration1.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/fasade_decoration4.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/2123243.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/fasade_decoration8.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/fasade_decoration_7.2.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/fasade_decoration10.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/fasade_decoration17.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/swimmingpool_decorations.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Средневековый замок в Видном</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item street">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/conctreepushkin_intro1.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete_tree_sculpture.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete_tree_sculpture_1.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete_tree_sculpture_3.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete_tree_sculpture_6.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete_tree_sculpture_7.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete_tree_sculpture_8.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/concrete_tree_sculpture_12.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Дерево из бетона</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item street">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/waterfall-with-bowl_intro2.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/waterfall-with-bowl_2410_25_6x45.jpg" alt=""> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Водопад в Дубках</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item interior">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/Uspenskoe_intro1.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/relief_birds_1.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/relief_birds_4.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/P1030528_ed.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/relief_birds_6.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/relief_birds_8.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/relief_birds_9.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/Untitled-1_ed.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Барельеф “Птицы”</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item street">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/bbqzone_intro3.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy=https://viimiracula.ru/wp-content/uploads/fasade_decoratoins_1.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/fasade_decoratoins_10.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/fasade_decoratoins_7.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/fasade_decoratoins_8.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/fasade_decoratoins_12.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/fasade_decoratoins_13.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/fasade_decoratoins_14.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Зона барбекю</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item street">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/tsaritsino_intro1.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/tree_sculpture201.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/tree_sculpture5.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/tree_sculpture601.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/tree_sculpture7.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/tree_sculpture701.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/tree_sculpture7.3.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/tree_sculpture13.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Скульптуры в Царицыно</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item interior">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/sportshop_intro2.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/sportshop02.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/sportshop01.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/sportshop05.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/sportshop10.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/sportshop06.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/sportshop11.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Оформление магазина</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item public">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/antiqcol_intro1.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/antique_columns_decorations_1-1.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/antique_columns_decorations_7.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/antique_columns_decorations_8.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/antique_columns_process.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/antique_columns_process_3.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/antique_columns_process_4.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/antique_columns_process_5.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Греческие колонны в Бизнес-центре</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item interior">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/restaurant_intro1.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/restoutant_21.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/restoutant_3.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/2419_07_3x4.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/restoutant_8.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/restoutant_11.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/restoutant_12.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/restoutant_14.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Отделка ресторана</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item interior">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/waterfallrest_intro1.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/decorative_waterfall.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/decorative_waterfall1.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/decorative_waterfall3.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/decorative_waterfall6.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/decorative_waterfall8.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/decorative_waterfall9.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/decorative_waterfall10.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Водопад для ресторана</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="projects__item interior">
+                    <div class="projects__swiper">
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/glagolevo_intro1.jpg" alt="">
+                        </div>
+                        <div class="projects__slide">
+                           <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/fireplace1.jpg" alt=""> 
+                        </div>
+                        <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/tv_stand.jpg" alt=""> 
+                         </div>
+                         <div class="projects__slide">
+                            <img class="projects__img" data-lazy="https://viimiracula.ru/wp-content/uploads/fireplace_3.jpg" alt=""> 
+                         </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>Отделка камина и TV-стойки</h3>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="services__section" id="services">
+            <div class="container">
+                <h2 class="h2-style">Наши услуги</h2>
+                <ul class="services__list">
+                    <li>
+                        <div style="background:url(https://viimiracula.ru/wp-content/uploads/fasade_decor6.jpg) center / cover no-repeat"></div>
+                        <div>
+                            <h3>Отделка фасада под камень</h3>
+                            <p>Наша технология работы позволяет осуществить полную отделку фасада под камень при минимальных нагрузках на стены и фундамент. Новый фасад будет не только красивым, но и надежным, не требует дополнительного ухода и обслуживания.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div style="background:url(https://viimiracula.ru/wp-content/uploads/5_146.jpg) center / cover no-repeat"></div>
+                        <div>
+                            <h3>Отделка интерьеров декоративным бетоном</h3>
+                            <p>Акцентная стена из камня, превращение всего пространства в средневековый замок или грот — мы осуществляем задумки в разных стилистических направлениях с помощью архитектурного бетона.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div style="background:url(https://viimiracula.ru/wp-content/uploads/artificial_rocks_10-1.jpg) center / cover no-repeat"></div>
+                        <div>
+                            <h3>Искусственные скалы</h3>
+                            <p>Студия Семь чудес света создает рокарии и скалы из архитектурного бетона, которые внешне не отличаются от творений природы.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div style="background:url(https://viimiracula.com/wp-content/uploads/bigwaterfall_results_h_008.jpg) center / cover no-repeat"></div>
+                        <div>
+                            <h3>Искусственные водопады </h3>
+                            <p>Наша Студия осуществляет весь процесс создания водопада: от декоративной составляющей до проведения инженерных коммуникаций.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div style="background:url(https://viimiracula.ru/wp-content/uploads/decorative_pound_11.jpg) center / cover no-repeat"></div>
+                        <div>
+                            <h3>Искусственные водоемы</h3>
+                            <p>Художники нашей студии работают с загородными участками, садами, парковыми зонами и другими территориями. Наши водоемы отличаются небанальным оформлением, которое трудно достичь с помощью обычного камня. Наша технология работы позволяет создавать пруды с камнями любых форм и фактур, а также внедрять неординарные декоративные решения, превращая среднестатистический водоем в арт-объект.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div style="background:url(https://viimiracula.ru/wp-content/uploads/concrete_tree_6-1.jpg) center / cover no-repeat"></div>
+                        <div>
+                            <h3>Деревья из бетона</h3>
+                            <p>Каменное дерево – это вариант скульптуры, который используется для оформления ландшафтного дизайна с целью придания участку особой художественной ценности. Помимо отдельных скульптурных объектов мастера Студии Семь чудес света создают достоверную фактуру различных деревьев, а также каменные лианы для отделки интерьеров и фасадов зданий.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div style="background:url(https://viimiracula.ru/wp-content/uploads/swimmingpool_finishing_2.jpg) center / cover no-repeat"></div>
+                        <div>
+                            <h3>Отделка бассейнов</h3>
+                            <p>Отделка помещений с повышенной влажностью может стать большим испытанием, но не для архитектурного бетона. Материал прочен, влагоустойчив и абсолютно безопасен. Кроме того, для вас открываются невероятные возможности в отделке, ведь теперь из бассейна можно сделать тематическую зону: от природного водоема в затерянных джунглях до древнеримской купальни! Выбирайте сюжет, а мы осуществим любые ваши идеи.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div style="background:url(https://viimiracula.ru/wp-content/uploads/artificial_groto.jpg) center / cover no-repeat"></div>
+                        <div>
+                            <h3>Искусственные пещеры и гроты</h3>
+                            <p>Если вас притягивает загадочность и красота пещер, Студия Семь чудес света поможет сделать грот прямо на территории участка или дома. Мы создаем искусственные природные объекты, внешне не отличающиеся от настоящих. Каменные своды, сталактиты и сталагмиты… Такой декор эффектно украсит винный погреб, комнату отдыха или тематическое помещение.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div style="background:url(https://viimiracula.ru/wp-content/uploads/landscape_design_pond.jpg) center / cover no-repeat"></div>
+                        <div>
+                            <h3>Ландшафтный дизайн и благоустройство</h3>
+                            <p>Декорируем хозяйственные постройки и коммуникации под природные объекты. Осуществляем все виды ландшафтных работ: от посадок растений до строительства водоемов и беседок.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="advantages__section">
+            <div class="container">
+                <h2 class="h2-style">О нас</h2>
+                <ul class="advantages__list">
+                    <li>
+                        <span>20+</span>
+                        <p>лет успешной работы</p>
+                    </li>
+                    <li>
+                        <span>30+</span>
+                        <p>масштабных проектов</p>
+                    </li>
+                    <li>
+                        <span>23</span>
+                        <p>мастера в команде</p>
+                    </li>
+                    <li>
+                        <span>1,5</span>
+                        <p>млн тонн арт бетона использовали</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="team__section">
+            <div class="container">
+                <div></div>
+                <div class="text-wrapper">
+                    <p>Мастера Студии Семь чудес света реалистично интерпретируют фактуры камня и природные объекты в интерьере, архитектуре и ландшафте, создавая скульптурные произведения в органическом стиле.</p>
+                    <p>Наша цель — сделать среду обитания человека естественной, органичной и комфортной. Мы можем создать природное окружение как внутри дома, так и в масштабах целой местности, изменив ландшафт. </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="media__section">
+            <div class="container">
+                <h2 class="h2-style">Следите за нами, где вам удобно</h2>
+                <div class="media__wrapper">
+                    <div class="text-wrapper">
+                        <a href="#" class="media__btn media__btn--1">YOUTUBE</a>
+                        <p>Рассказываем о тонкостях работы, лучших проектах, как мы реализовываем те или иные сложные задачи.</p>
+                    </div><div class="text-wrapper">
+                        <a href="#" class="media__btn media__btn--2">Instagram</a>
+                        <p>Показываем красоту, подписывайтесь, чтобы не пропустить лучшие фотографии и видео проектов с использованием архитектурного бетона.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+    </main>
+    <footer class="footer__section" id="contacts">
+        <div class="container">
+            <div class="socials">
+                <a href="#" class=""></a>
+                <a href="#" class=""></a>
+                <a href="#" class=""></a>
+                <a href="#" class=""></a>
+                <a href="#" class=""></a>
+                <a href="#" class=""></a>
+                <a href="#" class=""></a>
+            </div>
+            <div class="footer__contacts">
+                <div class="footer__info">
+                    <a href="art@viimiracula.com" class="">art@viimiracula.com</a>
+                    <a href="tel:+77711632310" class="">+7 771 163-23-10</a>
+                </div>
+                <p>Алматы, пр-т Aль-Фараби, 77/7 </p>
+                <p>2024 © Студия Семь чудес света</p>
+            </div>
+            <span class="footer__author">Создание сайта — <a href="https://a-kh.ru/">a-kh</a></span>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">  
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>  
+    <script src="./scripts.js"></script>
+</body>
+</html>
